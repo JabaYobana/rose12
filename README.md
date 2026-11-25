@@ -1,0 +1,45 @@
+ROSE12
+
+
+don’t let the rose perish
+don’t let the rose perish                           
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
+don’t let the rose perish
