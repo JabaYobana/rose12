@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rose12</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <section id="welcome">
+      <h1>Congratulations.</h1>
+      <p>You've completed Rose12. To continue, sign up.</p>
+      <button id="proceed">Proceed</button>
+    </section>
+
+    <section id="signup" hidden>
+      <h1>Sign up</h1>
+      <form id="registrationForm">
+        <label for="name">Name</label>
+        <input id="name" name="name" maxlength="100" autocomplete="name" required>
+
+        <label for="nationality">Nationality</label>
+        <input id="nationality" name="nationality" maxlength="80" required>
+
+        <label for="age">Age</label>
+        <input id="age" name="age" type="number" min="1" max="120" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" maxlength="254" autocomplete="email" required>
+
+        <p class="note">Your details will be stored for the Rose12 administrator to review.</p>
+        <p id="signupStatus" class="status" aria-live="polite"></p>
+        <button type="submit">Submit</button>
+      </form>
+      <button class="text-button" id="homeFromSignup">Back</button>
+    </section>
+
+    <section id="complete" hidden>
+      <h1>Thank you.</h1>
+      <p>We will contact you.</p>
+      <button id="returnHome">Return</button>
+    </section>
+
+    <section id="adminLogin" hidden>
+      <h1>Control Room</h1>
+      <form id="adminForm">
+        <label for="adminEmail">Email</label>
+        <input id="adminEmail" type="email" autocomplete="username" required>
+        <label for="adminPassword">Password</label>
+        <input id="adminPassword" type="password" autocomplete="current-password" required>
+        <p id="adminStatus" class="status" aria-live="polite"></p>
+        <button type="submit">Sign in</button>
+      </form>
+      <button class="text-button" id="backToHome">Back</button>
+    </section>
+
+    <section id="controlRoom" hidden>
+      <h1>Registrations</h1>
+      <p id="recordStatus" class="status" aria-live="polite"></p>
+      <div id="records"></div>
+      <button id="refreshRecords">Refresh</button>
+      <button class="text-button" id="signOut">Sign out</button>
+    </section>
+
+    <footer><span>ROSE12</span><button class="text-button" id="adminLink">Admin</button></footer>
+  </main>
+</body>
+</html>
