@@ -1,7 +1,7 @@
 // Add your Supabase Project URL and publishable key below.
 // Never put a secret/service_role key in this file.
-const SUPABASE_URL = "PASTE_YOUR_SUPABASE_PROJECT_URL_HERE";
-const SUPABASE_PUBLISHABLE_KEY = "PASTE_YOUR_SUPABASE_PUBLISHABLE_KEY_HERE";
+const SUPABASE_URL = "https://odicdnsshveaqjxdepey.supabase.co";
+const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_mmCQBjuQJREHfCcnR7baEw_bL6wTz6U";
 const ADMIN_EMAIL = "zabenok4@gmail.com";
 
 const { createClient } = window.supabase || {};
